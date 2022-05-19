@@ -5,6 +5,8 @@
 
 ###  Содержание:
 
+- [Покрытый функционал](#globe_with_meridians-покрытый-функционал)
+
 - [Технологии и инструменты](#techno-технологии-и-инструменты)
 - [Реализованные проверки](#control-Реализованные-проверки)
 - [Сборка в Jenkins](#jenkins-Jenkins-job)
@@ -14,6 +16,9 @@
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 
+<a name="globe_with_meridians-покрытый-функционал"></a>:globe_with_meridians: Покрытый функционал
+
+<a name="techno-технологии-и-инструменты"></a>
 ###  Проект реализован с использованием
 IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira
 <p align="center">
