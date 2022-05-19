@@ -5,8 +5,6 @@
 
 ###  Содержание:
 
-- [Покрытый функционал](#globe_with_meridians-покрытый-функционал)
-
 - [Технологии и инструменты](#techno-технологии-и-инструменты)
 - [Реализованные проверки](#control-Реализованные-проверки)
 - [Сборка в Jenkins](#jenkins-Jenkins-job)
@@ -14,9 +12,6 @@
 - [Allure отчет](#report-Allure-отчет)
 - [Отчет в Telegram](#telegram-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
-
-
-<a name="globe_with_meridians-покрытый-функционал"></a>:globe_with_meridians: Покрытый функционал
 
 <a name="techno-технологии-и-инструменты"></a>
 ###  Проект реализован с использованием
@@ -34,6 +29,7 @@ IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure 
 <img width="4%" title="Telegram" src="images/logo/Telegram.svg">
 </p>
 
+<a name="control-Реализованные-проверки"></a>
 ###  Список проверок, реализованных в автотестах
 - [x] Проверка заголовка на главной странице
 - [x] Переключение кнопок в шапке сайта
@@ -41,7 +37,7 @@ IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure 
 - [x] Проверка адреса на вкладке "Контакты"
 - [x] Проверка появления поп-апа "Напишите нам"
 
-
+<a name="jenkins-Jenkins-job"></a>
 ###   Сборка в Jenkins
 ### <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/Test-vacancy/)
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать с параметрами*</strong></code> и указать значения параметров.*
@@ -71,10 +67,13 @@ gradle clean test
 > <code>SELENOID_SERVER</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
 
+<a name="terminal-Запуск-тестов-из-терминала"></a>
 ### :terminal: Запуск из терминала
 ```bash
 gradle clean test
 ```
+
+<a name="report-Allure-отчет"></a>
 ### :report:  Allure Reports отчет
 ### <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/Test-vacancy/)
 <p align="center">
@@ -85,12 +84,14 @@ gradle clean test
   <img src="images/screens/AllureTestOps2.png" alt="job" width="800">
 </p>
 
+<a name="telegram-Уведомление-в-Telegram-при-помощи-бота"></a>
 ### :telegram: Отчет в Telegram
 
 <p align="center">
   <img src="images/screens/telegram.png" alt="job" width="400">
 </p>
 
+<a name="earth_africa-Примеры-видео-о-прохождении-тестов"></a>
 ### Видео прохождения тестов
 
 > К каждому тесту в отчете прилагается видео.
