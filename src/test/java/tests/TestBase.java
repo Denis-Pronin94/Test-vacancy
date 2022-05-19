@@ -15,6 +15,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 
 public class TestBase {
 
+    static String browser = System.getProperty("browser");
     static String browserSize = System.getProperty("browserSize");
     static String selenoidUrl = System.getProperty("selenoidServer");
     static String browserVersion = System.getProperty("browserVersion");
@@ -25,9 +26,10 @@ public class TestBase {
         CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
+        Configuration.browser = browser;
         Configuration.browserSize = browserSize;
-        Configuration.remote = "https://" + config.login() + ":" + config.password() + "@" + selenoidUrl;
         Configuration.browserVersion = browserVersion;
+        Configuration.remote = "https://" + config.login() + ":" + config.password() + "@" + selenoidUrl;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
