@@ -73,11 +73,11 @@ gradle clean test
 ### :report:  Allure Reports отчет
 ### <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/Test-vacancy/)
 <p align="center">
-  <img src="images/screens/AllureReport1.png" alt="job" width="800">
+  <img src="images/screens/AllureTestOps.png" alt="job" width="800">
 </p>
 
 <p align="center">
-  <img src="images/screens/AllureReport.png" alt="job" width="800">
+  <img src="images/screens/AllureTestOps2.png" alt="job" width="800">
 </p>
 
 ### :telegram: Отчет в Telegram
