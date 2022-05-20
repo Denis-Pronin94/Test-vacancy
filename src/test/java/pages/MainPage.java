@@ -25,7 +25,7 @@ public class MainPage {
             checkText = $(".modal__title");
 
     // actions
-    public void openMainPage() {
+    public void OpenMainPage() {
         open("https://tprs.ru");
         textSearch.shouldHave(text("Расчетные системы"));
     }
@@ -66,7 +66,7 @@ public class MainPage {
         address.shouldHave(text(text));
     }
 
-    public void ResumeRutton() {
+    public void ResumeButton() {
         resumeRutton.click();
     }
 

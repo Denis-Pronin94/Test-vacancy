@@ -12,10 +12,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @DisplayName("Проверка заголовка на главной странице")
-    void CheckTitle() {
+    void checkTitle() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.openMainPage();
+            mainPage.OpenMainPage();
         });
 
         step("Проверить заголовок", () -> {
@@ -25,10 +25,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @DisplayName("Переключение кнопок в шапке сайта")
-    void HomePage() {
+    void homePage() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.openMainPage();
+            mainPage.OpenMainPage();
         });
 
         step("Нажать Проекты", () -> {
@@ -54,10 +54,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @DisplayName("На вкладке Проекты проверить кнопку Offline")
-    void ProjectsOfflineName() {
+    void projectsOfflineName() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.openMainPage();
+            mainPage.OpenMainPage();
         });
 
         step("Перейти на вкладку Проекты", () -> {
@@ -75,10 +75,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @DisplayName("Проверка адреса на вкладке Контакты")
-    void Address() {
+    void address() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.openMainPage();
+            mainPage.OpenMainPage();
         });
 
         step("Нажать - Контакты", () -> {
@@ -92,10 +92,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @DisplayName("Проверка появления поп-апа Напишите нам")
-    void PopUp() {
+    void popUp() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.openMainPage();
+            mainPage.OpenMainPage();
         });
 
         step("Нажать - Вакансии", () -> {
@@ -103,7 +103,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Нажать отправить резюме", () -> {
-            mainPage.ResumeRutton();
+            mainPage.ResumeButton();
         });
 
         step("Проверка появления поп-апа Напишите нам", () -> {
