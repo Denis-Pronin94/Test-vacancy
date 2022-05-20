@@ -15,15 +15,15 @@
 
 <a name="techno-технологии-и-инструменты"></a>
 ###  Проект реализован с использованием
-IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira
+
 <p align="center">
 <img width="8%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
 <img width="8%" title="Java" src="images/logo/Java.svg">
+<img width="8%" title="Gradle" src="images/logo/Gradle.svg">
 <img width="8%" title="Selenide" src="images/logo/Selenide.svg">
 <img width="8%" title="Selenoid" src="images/logo/Selenoid.svg">
-<img width="8%" title="Allure Report" src="images/logo/Allure_Report.svg">
-<img width="8%" title="Gradle" src="images/logo/Gradle.svg">
 <img width="8%" title="JUnit5" src="images/logo/JUnit5.svg">
+<img width="8%" title="Allure Report" src="images/logo/Allure_Report.svg">
 <img width="8%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="8%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="8%" title="Telegram" src="images/logo/Telegram.svg">
@@ -101,4 +101,4 @@ gradle clean test
 
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a># Test-vacancy
+:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
