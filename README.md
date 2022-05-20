@@ -43,7 +43,7 @@ IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure 
 *Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать с параметрами*</strong></code> и указать значения параметров.*
 
 <p align="center">
-  <img src="images/screens/Jenkins.png" alt="job" width="800">
+  <img src="images/screens/Jenkins.png" alt="job" width="900">
 </p>
 
 ### Удаленный запуск тестов
@@ -77,18 +77,18 @@ gradle clean test
 ### :report:  Allure Reports отчет
 ### <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/Test-vacancy/)
 <p align="center">
-  <img src="images/screens/AllureTestOps.png" alt="job" width="800">
+  <img src="images/screens/AllureTestOps.png" alt="job" width="900">
 </p>
 
 <p align="center">
-  <img src="images/screens/AllureTestOps2.png" alt="job" width="800">
+  <img src="images/screens/AllureTestOps2.png" alt="job" width="900">
 </p>
 
 <a name="telegram-Уведомление-в-Telegram-при-помощи-бота"></a>
 ### :telegram: Отчет в Telegram
 
 <p align="center">
-  <img src="images/screens/telegram.png" alt="job" width="400">
+  <img src="images/screens/telegram.png" alt="job" width="600">
 </p>
 
 <a name="earth_africa-Примеры-видео-о-прохождении-тестов"></a>
