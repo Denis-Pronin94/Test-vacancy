@@ -15,11 +15,11 @@ public class GeneratedTests extends TestBase {
     void checkTitle() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.OpenMainPage();
+            mainPage.openMainPage();
         });
 
         step("Проверить заголовок", () -> {
-            mainPage.TextHeadings("Пионеры в своём деле");
+            mainPage.textHeadings("Пионеры в своём деле");
         });
     }
 
@@ -28,27 +28,27 @@ public class GeneratedTests extends TestBase {
     void homePage() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.OpenMainPage();
+            mainPage.openMainPage();
         });
 
         step("Нажать Проекты", () -> {
-            mainPage.MainProjects();
+            mainPage.mainProjects();
         });
 
         step("Нажать - Контакты", () -> {
-            mainPage.MainContacts();
+            mainPage.mainContacts();
         });
 
         step("Нажать - Вакансии", () -> {
-            mainPage.MainVacancy();
+            mainPage.mainVacancy();
         });
 
         step("Нажать - Решения", () -> {
-            mainPage.MainDecisions();
+            mainPage.mainDecisions();
         });
 
         step("проверить текс", () -> {
-            mainPage.TextSearch("Расчетные системы");
+            mainPage.textSearch("Расчетные системы");
         });
     }
 
@@ -57,19 +57,19 @@ public class GeneratedTests extends TestBase {
     void projectsOfflineName() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.OpenMainPage();
+            mainPage.openMainPage();
         });
 
         step("Перейти на вкладку Проекты", () -> {
-            mainPage.MainProjects();
+            mainPage.mainProjects();
         });
 
         step("Нажать кнопку Offline", () -> {
-            mainPage.OfflineClick();
+            mainPage.offlineClick();
         });
 
         step("Проверить название Offline проекта", () -> {
-            mainPage.ProjectsOfflineName("Система оплаты штрафов ГИБДД в «АРМ сотрудника ДПС»");
+            mainPage.projectsOfflineName("Система оплаты штрафов ГИБДД в «АРМ сотрудника ДПС»");
         });
     }
 
@@ -78,15 +78,15 @@ public class GeneratedTests extends TestBase {
     void address() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.OpenMainPage();
+            mainPage.openMainPage();
         });
 
         step("Нажать - Контакты", () -> {
-            mainPage.MainContacts();
+            mainPage.mainContacts();
         });
 
         step("Проверить адрес", () -> {
-            mainPage.Address("ул. Радищева, д.39, офис 402");;
+            mainPage.address("ул. Радищева, д.39, офис 402");;
         });
     }
 
@@ -95,19 +95,19 @@ public class GeneratedTests extends TestBase {
     void popUp() {
 
         step("Открыть сайт https://tprs.ru и проверить название", () -> {
-            mainPage.OpenMainPage();
+            mainPage.openMainPage();
         });
 
         step("Нажать - Вакансии", () -> {
-            mainPage.MainVacancy();
+            mainPage.mainVacancy();
         });
 
         step("Нажать отправить резюме", () -> {
-            mainPage.ResumeButton();
+            mainPage.resumeButton();
         });
 
         step("Проверка появления поп-апа Напишите нам", () -> {
-            mainPage.CheckText("Напишите нам");
+            mainPage.checkText("Напишите нам");
         });
     }
 }

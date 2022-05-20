@@ -25,52 +25,52 @@ public class MainPage {
             checkText = $(".modal__title");
 
     // actions
-    public void OpenMainPage() {
+    public void openMainPage() {
         open("https://tprs.ru");
         textSearch.shouldHave(text("Расчетные системы"));
     }
 
-    public void TextHeadings(String text) {
+    public void textHeadings(String text) {
         textHeading.shouldHave(text(text));
     }
 
-    public void MainProjects() {
+    public void mainProjects() {
         mainProjects.click();
     }
 
-    public void MainContacts() {
+    public void mainContacts() {
         mainContacts.click();
     }
 
-    public void MainVacancy() {
+    public void mainVacancy() {
         mainVacancy.click();
     }
 
-    public void MainDecisions() {
+    public void mainDecisions() {
         mainDecisions.click();
     }
 
-    public void TextSearch(String text) {
+    public void textSearch(String text) {
         textSearch.shouldHave(text(text));
     }
 
-    public void OfflineClick() {
+    public void offlineClick() {
         offlineClick.click();
     }
 
-    public void ProjectsOfflineName(String text) {
+    public void projectsOfflineName(String text) {
         projectsOfflineName.shouldHave(text(text));
     }
 
-    public void Address(String text) {
+    public void address(String text) {
         address.shouldHave(text(text));
     }
 
-    public void ResumeButton() {
+    public void resumeButton() {
         resumeRutton.click();
     }
 
-    public void CheckText(String text) {
+    public void checkText(String text) {
         checkText.shouldHave(text(text));
     }
 }
